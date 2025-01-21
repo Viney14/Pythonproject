@@ -1,0 +1,54 @@
+Unnamed: 0,track_id,track_name,release_date,artist_id,artist_name,popularity,followers,record_label,danceability,energy,instrumentalness,valence,tempo,tempo_adjusted,year
+2707,1ei3hzQmrgealgRKFxIcWn,In The Stars,2022-04-29,22wbnEMDvgVIAGdFeek6ET,Benson Boone,86,3720256,Warner Music Group,0.362,0.54,0.0,0.3,78.007,0.0,2022
+2772,5YbPxJwPfrj7uswNwoF1pJ,Last Last,2022-07-07,3wcj11K77LjEY1PkEazffa,Burna Boy,81,10322907,Warner Music Group,0.795,0.565,0.0,0.55,87.925,1.0,2022
+2811,1jEBSDN5vYViJQr78W7jr2,Light Switch,2022-10-06,6VuMaDnrHyPL1p4EHjYLi7,Charlie Puth,82,23313087,Warner Music Group,0.689,0.627,0.000321,0.905,184.008,1.0,2022
+2814,5Odq8ohlgIbQKMZivbWkEo,Left and Right (Feat. Jung Kook of BTS),2022-10-06,6VuMaDnrHyPL1p4EHjYLi7,Charlie Puth,82,23313087,Warner Music Group,0.881,0.592,1.32e-05,0.719,101.058,1.0,2022
+2858,0rCFRyEy4WXjRXNpO80Dzs,Fall In Love,2023-01-11,3win9vGIxFfBRag9S63wwf,Bailey Zimmerman,76,1366041,Warner Music Group,0.524,0.643,0.0,0.397,135.962,0.5,2023
+2859,1TE8AAk9koG0UJco6ZAUfx,Rock and A Hard Place,2023-01-11,3win9vGIxFfBRag9S63wwf,Bailey Zimmerman,76,1366041,Warner Music Group,0.582,0.568,0.0,0.394,121.991,0.5,2023
+2860,0wXThIDxO3YRJCpPgnmbkw,Where It Ends,2023-01-11,3win9vGIxFfBRag9S63wwf,Bailey Zimmerman,76,1366041,Warner Music Group,0.431,0.837,0.0,0.648,170.041,1.0,2023
+2863,26YvZWW29FXHaSRQzajRYv,Fix'n To Break,2023-01-11,3win9vGIxFfBRag9S63wwf,Bailey Zimmerman,76,1366041,Warner Music Group,0.455,0.721,2.37e-06,0.362,152.031,0.5,2023
+2864,0bILU0UiNDmA5Ff6whhb2R,Religiously,2023-01-11,3win9vGIxFfBRag9S63wwf,Bailey Zimmerman,76,1366041,Warner Music Group,0.57,0.67,0.0,0.593,140.924,1.0,2023
+2931,3BKD1PwArikchz2Zrlp1qi,Baby Don't Hurt Me,2023-04-06,1Cs0zKBU1kc0i8ypK3B9ai,David Guetta,90,26286764,Warner Music Group,0.602,0.91,0.000174,0.228,127.944,0.5,2023
+2932,3BKD1PwArikchz2Zrlp1qi,Baby Don't Hurt Me,2023-04-06,1zNqDE7qDGCsyzJwohVaoX,Anne-Marie,79,12077748,Warner Music Group,0.602,0.91,0.000174,0.228,127.944,0.5,2023
+2938,3j11iDncb7ZeDMw7lFucqM,The Motto,2023-04-21,4npEfmQ6YuiwW1GpUmaq3F,Ava Max,80,7128382,Warner Music Group,0.754,0.763,2.23e-05,0.464,117.953,0.0,2023
+2963,5rurggqwwudn9clMdcchxT,"Calling (Spider-Man: Across the Spider-Verse) (Metro Boomin & Swae Lee, NAV, feat. A Boogie Wit da Hoodie)",2023-06-02,31W5EY0aAly4Qieq6OFu6I,A Boogie Wit da Hoodie,79,8479739,Warner Music Group,0.636,0.537,0.0,0.199,140.133,0.5,2023
+2992,5VxmI3IdgAxWVvUnJoLuY2,Speed Drive (From Barbie The Album),2023-06-29,25uiPmTg16RbhZWAqwLBy5,Charli xcx,89,4251411,Warner Music Group,0.652,0.879,0.0896,0.789,173.925,1.0,2023
+3042,6UoKX6uLJwhsnyTp5k5StP,The Painter,2023-08-11,6zLBxLdl60ekBLpawtT63I,Cody Johnson,77,1462566,Warner Music Group,0.512,0.709,4.25e-06,0.261,97.981,0.0,2023
+3128,48X5k2vce5rXckgDAnXMsa,Dirt Cheap,2023-11-03,6zLBxLdl60ekBLpawtT63I,Cody Johnson,77,1462566,Warner Music Group,0.62,0.507,0.0,0.266,120.065,0.5,2023
+3142,40mlSLIXhewsXtjD4yteqL,My Head & My Heart,2023-12-23,4npEfmQ6YuiwW1GpUmaq3F,Ava Max,80,7128382,Warner Music Group,0.614,0.934,0.0,0.436,116.001,0.0,2023
+3147,6tNQ70jh4OwmPGpYy6R2o9,Beautiful Things,2024-01-18,22wbnEMDvgVIAGdFeek6ET,Benson Boone,86,3720256,Warner Music Group,0.472,0.471,0.0,0.219,105.029,0.0,2024
+3165,1kMWJ16W3Yk3hyNmaM7jfQ,Holy Smokes,2024-02-23,3win9vGIxFfBRag9S63wwf,Bailey Zimmerman,76,1366041,Warner Music Group,0.462,0.569,0.0,0.432,95.117,0.0,2024
+3173,6WO7IDGLakjO38lsvI2gHB,Slow It Down,2024-03-21,22wbnEMDvgVIAGdFeek6ET,Benson Boone,86,3720256,Warner Music Group,0.432,0.583,0.0,0.544,181.489,1.0,2024
+3177,2dYXrWkNO40NXy2Q3IYLRc,Puntería,2024-03-22,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.858,0.725,3.07e-05,0.805,120.087,1.0,2024
+3188,3h76tbaYIamSeJL81X7ZwI,Cry,2024-04-05,22wbnEMDvgVIAGdFeek6ET,Benson Boone,86,3720256,Warner Music Group,0.711,0.48,1.55e-05,0.352,107.948,0.0,2024
+3190,331l3xABO0HMr1Kkyh2LZq,I Don't Wanna Wait,2024-04-05,1Cs0zKBU1kc0i8ypK3B9ai,David Guetta,90,26286764,Warner Music Group,0.681,0.714,0.0,0.554,129.976,1.0,2024
+3195,3huC9LSgHirhNCqqTJ46qe,Hole in the World - 2018 Remaster,2024-04-12,0ECwFtbIWEVNwjlrfc6xoL,Eagles,77,11043312,Warner Music Group,0.661,0.372,0.0,0.693,82.154,1.0,2024
+3240,19RybK6XDbAVpcdxSbZL1o,Apple,2024-06-07,25uiPmTg16RbhZWAqwLBy5,Charli xcx,89,4251411,Warner Music Group,0.804,0.957,0.0174,0.962,126.035,1.0,2024
+3255,11nmHJICkQ9emiYJJINygH,New To Country,2024-06-28,3win9vGIxFfBRag9S63wwf,Bailey Zimmerman,76,1366041,Warner Music Group,0.575,0.931,1.72e-05,0.924,146.029,1.0,2024
+3278,0IAFmrpi9KF0PP3LONJonm,In The Dark,2024-07-12,1Cs0zKBU1kc0i8ypK3B9ai,David Guetta,90,26286764,Warner Music Group,0.633,0.898,2.07e-06,0.876,125.994,1.0,2024
+3280,5QMIQGJ7PiQyAH42SDIYs0,"The girl, so confusing version with lorde",2024-07-17,25uiPmTg16RbhZWAqwLBy5,Charli xcx,89,4251411,Warner Music Group,0.707,0.8,2.59e-05,0.354,124.991,0.5,2024
+3294,3WOhcATHxK2SLNeP5W3v1v,Guess featuring billie eilish,2024-08-01,25uiPmTg16RbhZWAqwLBy5,Charli xcx,89,4251411,Warner Music Group,0.776,0.667,0.3,0.618,130.019,1.0,2024
+3315,1QxxBUAx42J8pIFYJJR880,Pretty Slowly,2024-08-15,22wbnEMDvgVIAGdFeek6ET,Benson Boone,86,3720256,Warner Music Group,0.588,0.576,0.0,0.226,122.081,0.5,2024
+3320,2plbrEY59IikOBgBGLjaoe,Die With A Smile,2024-08-16,0du5cEVh5yTK9QJze8zA0C,Bruno Mars,94,60197201,Warner Music Group,0.521,0.592,0.0,0.535,157.969,1.0,2024
+3337,6dayCflQl0ISXwZs6GBygC,I'm Gonna Love You,2024-09-27,6zLBxLdl60ekBLpawtT63I,Cody Johnson,77,1462566,Warner Music Group,0.552,0.494,2.94e-05,0.312,133.91,0.5,2024
+7030,3Rm787pfQBmS4PTwhI7EUR,Wake up In the Sky,2022-06-24,0du5cEVh5yTK9QJze8zA0C,Bruno Mars,94,60197201,Warner Music Group,0.799,0.579,0.0,0.363,142.987,0.5,2022
+7034,3uJFmluXzYedoJcvhpC1AW,Hot Shit (feat. Ye & Lil Durk),2022-07-01,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.878,0.685,0.0,0.523,157.003,1.0,2022
+7118,4uUG5RXrOk84mYEfFvj3cK,I'm Good (Blue),2022-08-26,1Cs0zKBU1kc0i8ypK3B9ai,David Guetta,90,26286764,Warner Music Group,0.561,0.965,7.07e-06,0.304,128.04,0.5,2022
+7119,4uUG5RXrOk84mYEfFvj3cK,I'm Good (Blue),2022-08-26,64M6ah0SkkRsnPGtGiRAbb,Bebe Rexha,81,9334209,Warner Music Group,0.561,0.965,7.07e-06,0.304,128.04,0.5,2022
+7208,0WNfQxDGaPTl0yogcMR5v1,Tomorrow 2 (with Cardi B),2022-11-11,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.839,0.813,0.0,0.711,79.816,1.0,2022
+7253,7ovrKrP1jYi04c1qpHr7mY,"Shake It (feat. Cardi B, Dougie B & Bory 300)",2022-12-09,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.87,0.832,0.0,0.906,140.02,1.0,2022
+7409,4L4m2mgZDF8KIkJPdWWIAf,Sittin' On Top Of The World,2023-06-01,3wcj11K77LjEY1PkEazffa,Burna Boy,81,10322907,Warner Music Group,0.787,0.848,0.0058,0.681,98.051,1.0,2023
+7413,6c6WmIHcHlhccEwSFBhzNa,Put It On Da Floor Again (feat. Cardi B),2023-06-02,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.849,0.614,0.0,0.472,111.363,0.0,2023
+7416,6WzRpISELf3YglGAh7TXcG,Popular (with Playboi Carti & Madonna) - From The Idol Vol. 1 (Music from the HBO Original Series),2023-06-02,6tbjWDEIzxoDsBA1FuhfPW,Madonna,81,8125634,Warner Music Group,0.854,0.674,8.53e-05,0.848,99.022,1.0,2023
+7506,69ZBK01gsgWUnA55BEaAPu,Point Me 2 (with Cardi B),2023-07-07,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.773,0.607,0.0,0.279,155.026,0.5,2023
+7542,73S4fsK22WH929PLFNYgOj,JEALOUSY (feat. Cardi B),2023-07-28,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.923,0.571,0.0,0.332,134.38,0.5,2023
+7565,1WsIk6g7dD8LZouywnzGUb,Talibans II - Bonus Track,2023-08-24,3wcj11K77LjEY1PkEazffa,Burna Boy,81,10322907,Warner Music Group,0.914,0.505,2.73e-06,0.54,102.937,1.0,2023
+7585,4YQImHflXSiIMXntcwPkx8,Bongos (feat. Megan Thee Stallion),2023-09-08,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.726,0.747,0.0,0.889,121.928,1.0,2023
+7700,596qBkNP4ezd84Y2mqL2tM,La Bebe - David Guetta Remix,2023-10-20,1Cs0zKBU1kc0i8ypK3B9ai,David Guetta,90,26286764,Warner Music Group,0.766,0.914,0.0,0.77,124.028,1.0,2023
+7723,05WVKTdZhlIMX4qqMLuo0f,BELLAKEO,2023-12-07,7FNnA9vBm6EKceENgCGRMb,Anitta,82,12694725,Warner Music Group,0.72,0.88,0.06,0.463,180.011,0.5,2023
+7771,5KI7I4mEtulXcv5VQJaV35,just like me,2024-01-12,3wcj11K77LjEY1PkEazffa,Burna Boy,81,10322907,Warner Music Group,0.701,0.653,2.82e-05,0.505,82.984,1.0,2024
+7821,3ytbtkmMnkfwMrBi32a7FD,Like What (Freestyle),2024-03-01,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.948,0.689,0.0,0.708,114.959,1.0,2024
+7826,4XqBLxDaEdlqkHlSlb1Rzq,Enough (Miami),2024-03-15,4kYSro6naA4h99UJvo89HB,Cardi B,81,24527818,Warner Music Group,0.926,0.791,0.0,0.473,139.166,0.5,2024
+7965,4w2GLmK2wnioVnb5CPQeex,360,2024-06-07,25uiPmTg16RbhZWAqwLBy5,Charli xcx,89,4251411,Warner Music Group,0.857,0.62,0.244,0.796,120.042,1.0,2024
+7999,2moqbMnrdHd6lIUgsnBj7U,You Can't Stop The Reign (feat. The Notorious B.I.G.),2024-06-28,5me0Irg2ANcsgc93uaYrpb,The Notorious B.I.G.,80,10824019,Warner Music Group,0.448,0.604,0.0,0.598,79.344,1.0,2024
+8077,2LUD3874dlzeRa34Hi7ohW,Talk talk featuring troye sivan,2024-09-12,25uiPmTg16RbhZWAqwLBy5,Charli xcx,89,4251411,Warner Music Group,0.731,0.817,6.13e-06,0.661,130.032,1.0,2024
