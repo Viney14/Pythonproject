@@ -67,8 +67,11 @@ st.sidebar.plotly_chart(fig, use_container_width=True)
 
 # Display filtered table in Sidebar
 st.sidebar.markdown(f"#### Artists with popularity between {popularity_range[0]} and {popularity_range[1]}:")
-st.sidebar.dataframe(filtered_warner_artists[['artist_name', 'popularity', 'followers']], use_container_width=True)
 
+# Remove duplicates based on 'artist_name', reset index to hide it
+filtered_warner_artists_unique = warner_artists[['artist_name', 'record_label', 'popularity', 'followers', ]].drop_duplicates(subset=['artist_name']).reset_index(drop=True)
+# Display the dataframe in sidebar with the specified columns and hidden index
+st.sidebar.dataframe(filtered_warner_artists_unique, use_container_width=True, hide_index=True)
 
 
 
@@ -119,8 +122,7 @@ artist_spotify_urls = {
     "David Guetta": "https://open.spotify.com/embed/track/0IAFmrpi9KF0PP3LONJonm",
     }
 
-# Streamlit UI
-st.title(':notes: Warner Music Group Collaboration Tool')
+
 # 1. Select a Warner Music Group artist with placeholder (default message)
 selected_warner_artist = st.selectbox(
     'Select an artist from Warner Music Group',
@@ -128,14 +130,13 @@ selected_warner_artist = st.selectbox(
     index=0  # Default selection
 )
 # Ensure an artist is selected before proceeding
-if selected_warner_artist == 'Select an artist':
-    st.warning("Please select an artist before proceeding.")
-else:
-    # Retrieve the Spotify track URL for the selected artist
-    track_url = artist_spotify_urls.get(selected_warner_artist)
+
+# Retrieve the Spotify track URL for the selected artist
+track_url = artist_spotify_urls.get(selected_warner_artist)
 
 if selected_warner_artist == 'Select an artist':
     st.warning("Please select an artist before proceeding.")
+
 else:
     # Generate Wikipedia URL
     base_url = "https://en.wikipedia.org/wiki/"
