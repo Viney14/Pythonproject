@@ -1,5 +1,24 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
+import plotly.express as px
+
+st.set_page_config(
+    page_title="Warner Music Group Dashboard",
+    page_icon="🏂",
+    layout="wide",
+    initial_sidebar_state="expanded")
+
+
+alt.themes.enable("dark")
+
+with st.sidebar:
+    st.title('Label Competitors')
+    
+    
+
+    Label_list = ['Sony Music', 'Universal Music', 'Warner Music']
+    selected_color_theme = st.selectbox('Select a Label', Label_list)
 
 #@st.cache_data
 def load_data(file_path):
