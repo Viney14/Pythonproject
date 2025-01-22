@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 import matplotlib.pyplot as plt
 import numpy as np
+import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="Warner Music Group Dashboard",
@@ -73,6 +74,8 @@ else:
         # Retrieve artist image
         image_url = get_artist_image(clean_artist_name(selected_warner_artist))
         # Retrieve all data for the selected Warner artist
+        df['release_date'] = pd.to_datetime(df['release_date'], format='%m/%d/%Y', errors='coerce')
+
         warner_artist_data = df[df['artist_name'] == selected_warner_artist]
         last_track = warner_artist_data.sort_values(by='release_date', ascending=False).iloc[0]
 
@@ -93,7 +96,7 @@ else:
         with col2:
             st.subheader(f"Information for {selected_warner_artist}:")
             st.write(f"**Track name:** {last_track['track_name']}")
-            st.write(f"**Release Date:** {last_track['release_date']}")
+            st.write(f"**Release Date:** {last_track['release_date'].strftime('%Y-%m-%d')}")
             st.write(f"**Popularity:** {last_track['popularity']}")
             st.write(f"**Followers:** {last_track['followers']}")
 
