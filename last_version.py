@@ -22,6 +22,57 @@ warner_artists = df[df['record_label'] == 'Warner Music Group'].sort_values(by='
 artist_names = warner_artists['artist_name'].unique()
 # Get unique labels excluding Warner Music Group
 other_labels = filtred[filtred['record_label'] != 'Warner Music Group']['record_label'].unique()
+
+# Main UI
+st.title(':notes: Warner Music Group Collaboration Tool')
+
+# Sidebar
+st.sidebar.title("Filters and Visualization")
+
+# Popularity Filter with Slider
+popularity_range = st.sidebar.slider(
+    "Set Popularity Range:",
+    min_value=75,
+    max_value=100,
+    value=(75, 85),
+    step=1
+)
+
+filtered_warner_artists = warner_artists[
+    (warner_artists['popularity'] >= popularity_range[0]) &
+    (warner_artists['popularity'] <= popularity_range[1])
+]
+
+# Plotly Chart
+fig = go.Figure()
+
+fig.add_trace(
+    go.Scatter(
+        x=filtered_warner_artists['popularity'],
+        y=filtered_warner_artists['followers'],
+        mode='markers',
+        marker=dict(size=10, color='purple'),
+        text=filtered_warner_artists['artist_name']
+    )
+)
+
+fig.update_layout(
+    title='Popularity vs Followers (Filtered)',
+    xaxis=dict(title='Popularity', range=[75, 100], showgrid=True),
+    yaxis=dict(title='Followers', showgrid=True)
+)
+
+# Show Chart in Sidebar
+st.sidebar.plotly_chart(fig, use_container_width=True)
+
+# Display filtered table in Sidebar
+st.sidebar.markdown(f"#### Artists with popularity between {popularity_range[0]} and {popularity_range[1]}:")
+st.sidebar.dataframe(filtered_warner_artists[['artist_name', 'popularity', 'followers']], use_container_width=True)
+
+
+
+
+
 # Helper function to clean artist names
 def clean_artist_name(artist_name):
     return "_".join(artist_name.strip().replace(" ", "_").split())
