@@ -11,12 +11,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded")
 
-# Define a dictionary to map Warner artists to their Spotify track URLs
-artist_spotify_urls = {
-    "Bruno Mars": "https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe_source=generator",
-    "Charli XCX": "https://open.spotify.com/embed/track/7CwWhMGWICOl2ICwbk3QTE_source=generator",
-    "Ava Max": "https://open.spotify.com/embed/track/1KixkQVDUHggZMU9dUobgm_source=generator",}
-
 # load data
 df = pd.read_csv("final_tracks.csv")
 filtred = pd.read_csv("filtered_data.csv")
@@ -85,19 +79,6 @@ else:
         warner_artist_data = df[df['artist_name'] == selected_warner_artist]
         last_track = warner_artist_data.sort_values(by='release_date', ascending=False).iloc[0]
 
-        
-
-    else:
-        # Retrieve the Spotify track URL for the selected artist
-        track_url = artist_spotify_urls.get(selected_warner_artist)
-
-        if track_url:
-            # Embed the Spotify player
-            st.write(f"Now playing: **{selected_warner_artist}**")
-            components.iframe(track_url)  # Embed the Spotify player
-        else:
-            st.write(f"Sorry, no track URL found for {selected_warner_artist}.")
-
 
         # Create two columns
         col1, col2 = st.columns([1, 2])  # Adjust column width ratios as needed
@@ -122,7 +103,8 @@ else:
 
         
        
-    
+    else:
+        st.write(f"Sorry, no Wikipedia page found for {selected_warner_artist}.")
 
     # 2. Select a competitor label with placeholder (default message)
     selected_label = st.selectbox(
