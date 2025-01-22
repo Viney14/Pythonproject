@@ -53,6 +53,19 @@ artist_spotify_urls = {
     "The Weeknd": "https://open.spotify.com/embed/track/1Es7AUAhQvapIcoh3qMKDL",
     "Eminem": "https://open.spotify.com/embed/track/4HMUrFl8y6rQCzEbaGEkcj",
     "Post Malone": "https://open.spotify.com/embed/track/6nLUacmejwxurxcknrSWFG",
+    "Future": "https://open.spotify.com/embed/track/3xqD0CgWTjZ6RuvXaVyKEC",
+    "Metro Boomin": "https://open.spotify.com/embed/track/7nQXU7lu0RhVOSmsa3teKj",
+    "21 Savage": "https://open.spotify.com/embed/track/1qIwin7JMVuX70qN6wD8ww",
+    "Bring Me The Horizon": "https://open.spotify.com/embed/track/3ySqZ8yGoh4Emi9HiPCCdP",
+    "Blink 182": "https://open.spotify.com/embed/track/6sjtUtT0lWNTQ2Xy9GFVML",
+    "Troye Sivan": "https://open.spotify.com/embed/track/7CwWhMGWICOl2ICwbk3QTE",
+    "Jimin": "https://open.spotify.com/embed/track/7tI8dRuH2Yc6RuoTjxo4dU",
+    "Lil Baby": "https://open.spotify.com/embed/track/4xbfYPpKIKtGU4iEK3WW2C",
+    "Quavo": "https://open.spotify.com/embed/track/5CJ3DQPUmrtI2lqRjPk4K6",
+    "Big Sean": "https://open.spotify.com/track/1ymWIr4E5x6xORlDO0bXlP",
+    "Benson Boone": "https://open.spotify.com/embed/track/1QxxBUAx42J8pIFYJJR880",
+    "Charlie Puth": "https://open.spotify.com/embed/track/1jEBSDN5vYViJQr78W7jr2",
+    "David Guetta": "https://open.spotify.com/embed/track/0IAFmrpi9KF0PP3LONJonm",
     }
 
 # Streamlit UI
